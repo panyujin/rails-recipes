@@ -6,7 +6,6 @@ class CreateTickets < ActiveRecord::Migration[5.0]
       t.text :description
       t.integer :price
       t.timestamps
-      t.timestamps
     end
   end
 end
